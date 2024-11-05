@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap"
+    />
+
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+
+    
+  </head>
+  <script>
+    $(document).ready(function () {
+      $.support.cors = true;
+      $("#header").load("./nav.html");
+    });
+  </script>
+  <body>
+
+    <div id="header"></div>
+    <div class="div">
+      <div class="div1">
+        <b class="b">
+          <p class="p">미팅 설계부터 실시간 소통, 데이터 분석까지</p>
+          <p class="p">모든 기능을 무료로 시작해보세요</p>
+        </b>
+        <div class="frame-parent">
+          <div class="instance-parent">
+            <div class="frame-group">
+              <div class="plus-parent">
+                <div class="plus">Free</div>
+                <div class="div2">10명 이하 미팅, 모임 컨텐츠 기획</div>
+              </div>
+              <div class="plus-parent">
+                <div class="krw-1000cradit">무료</div>
+                <div class="cradit-container">
+                  <p class="p">&nbsp;</p>
+                </div>
+              </div>
+              <div class="link">
+                <div class="div3">사용 문의하기</div>
+              </div>
+              <div class="parent">
+                <div class="div4">
+                  <ul class="ul">
+                    <li>참가자간 실시간 인터렉션</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>동시 생성 방 1개까지 가능</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>참가자 10명까지 가능</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">인터렉션 빌더</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>정보, 소통, 참여, 소통 모듈 사용 가능</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>덱 시나리오 설계</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>모듈 생성 10개까지</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>덱 생성 3개까지</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>진행 프레젠테이션 연결 1개까지 가능</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">관리 및 보안</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>방 비밀번호 설정</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>바로입장 기능</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>QR, 링크로 바로 입장</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="frame-group">
+              <div class="plus-parent">
+                <div class="plus">Plus</div>
+                <div class="div2">50명 미만 모임의 모임장</div>
+              </div>
+              <div class="plus-parent">
+                <div class="krw-1000cradit">
+                  <span>KRW 1,000</span>
+                  <span class="span">/게스트</span>
+                </div>
+                <div class="cradit-container">
+                  <span>
+                    <p class="p">충전형 요금제</p>
+                    <p class="p">1,000 Cradit 충전 시 20% 할인</p>
+                  </span>
+                </div>
+              </div>
+              <div class="link1">
+                <div class="div3">요금제 선택</div>
+              </div>
+              <b class="b1">무료 요금제의 모든 기능 +</b>
+              <div class="parent">
+                <div class="div4">
+                  <ul class="ul">
+                    <li>동시 생성 방 5개까지 가능</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>참가자 50명까지 가능</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">인터렉션 빌더</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>모듈, 덱 생성 무제한</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>진행 프레젠테이션 연결 3개까지 가능</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>참가자 뷰 커스텀 디자인</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>다크모드 지원</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">관리 및 보안</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>바로입장 코드 생성</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>오프라인 파일 백업 (.ice)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">고객 지원</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>고객 1:1 지원</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="instance-parent">
+            <div class="frame-group">
+              <div class="plus-parent">
+                <div class="plus">Business</div>
+                <div class="div2">50명 이상 교육, 행사, 축제</div>
+              </div>
+              <div class="plus-parent">
+                <div class="krw-1000cradit">
+                  <span>KRW 9,000</span>
+                  <span class="span">/게스트</span>
+                </div>
+                <div class="cradit-container">
+                  <span>
+                    <p class="p">충전형 요금제</p>
+                    <p class="p">1,000 Cradit 충전 시 20% 할인</p>
+                  </span>
+                </div>
+              </div>
+              <div class="link1">
+                <div class="div3">요금제 선택</div>
+              </div>
+              <b class="b1">플러스 요금제의 모든 기능 +</b>
+              <div class="parent">
+                <div class="div4">
+                  <ul class="ul">
+                    <li>동시 생성 방 10개까지 가능</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>참가자 100명까지 가능</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">인터렉션 빌더</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>함수 모듈 사용가능</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>맞춤 모듈 개발</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>진행 프레젠테이션 연결 5개까지 가능</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">관리 및 보안</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>온라인 파일 백업</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>공동진행자 권한 설정</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">고객 지원</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>오퍼레이션 지원</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="frame-group">
+              <div class="plus-parent">
+                <div class="plus">Enterprise</div>
+                <div class="div2">맞춤형 기업 솔루션</div>
+              </div>
+              <div class="plus-parent">
+                <div class="krw-1000cradit">가격 문의</div>
+                <div class="cradit-container">
+                  <p class="p">&nbsp;</p>
+                </div>
+              </div>
+              <div class="link1">
+                <div class="div3">영업팀에게 문의</div>
+              </div>
+              <b class="b1">비즈니스 요금제의 모든 기능 +</b>
+              <div class="wrapper">
+                <div class="div4">
+                  <ul class="ul">
+                    <li>참가자 1000명까지 가능</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">인터렉션 빌더</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>진행 프레젠테이션 연결 10대까지 가능</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">관리 및 보안</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>편집 제한 권한 설정 가능</li>
+                  </ul>
+                </div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>참가자 액세스 제한</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="parent">
+                <div class="div7">고객 지원</div>
+                <div class="div4">
+                  <ul class="ul">
+                    <li>우선 지원 서비스</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-parent3">
+          <div class="frame-parent4">
+            <div class="parent">
+              <div class="plus">Plus</div>
+              <div class="div2">50명 미만 모임의 모임장</div>
+            </div>
+            <div class="parent">
+              <div class="krw-1000cradit">
+                <span>KRW 1,000</span>
+                <span class="span">/게스트</span>
+              </div>
+              <div class="cradit-container4">
+                <p class="p">충전형 요금제</p>
+                <p class="p">1,000 Cradit 충전 시 20% 할인</p>
+              </div>
+            </div>
+            <div class="link1">
+              <div class="div3">요금제 선택</div>
+            </div>
+          </div>
+          <div class="parent11">
+            <b class="b1">무료 요금제의 모든 기능 +</b>
+            <div class="parent">
+              <div class="div56">
+                <ul class="ul">
+                  <li>참가자간 실시간 인터렉션</li>
+                </ul>
+              </div>
+              <div class="div4">
+                <ul class="ul">
+                  <li>동시 생성 방 5개까지 가능</li>
+                </ul>
+              </div>
+              <div class="div4">
+                <ul class="ul">
+                  <li>참가자 50명까지 가능</li>
+                </ul>
+              </div>
+            </div>
+            <div class="parent">
+              <div class="div7">인터렉션 빌더</div>
+              <div class="div4">
+                <ul class="ul">
+                  <li>모듈, 덱 생성 무제한</li>
+                </ul>
+              </div>
+              <div class="div56">
+                <ul class="ul">
+                  <li>덱 생성 무제한</li>
+                </ul>
+              </div>
+              <div class="div4">
+                <ul class="ul">
+                  <li>진행 프레젠테이션 연결 3개까지 가능</li>
+                </ul>
+              </div>
+              <div class="div4">
+                <ul class="ul">
+                  <li>참가자 뷰 커스텀 디자인</li>
+                </ul>
+              </div>
+              <div class="div4">
+                <ul class="ul">
+                  <li>다크모드 지원</li>
+                </ul>
+              </div>
+              <div class="div56">
+                <ul class="ul">
+                  <li>다크모드 지원</li>
+                </ul>
+              </div>
+            </div>
+            <div class="parent">
+              <div class="div7">관리 및 보안</div>
+              <div class="div4">
+                <ul class="ul">
+                  <li>바로입장 코드 생성</li>
+                </ul>
+              </div>
+              <div class="div4">
+                <ul class="ul">
+                  <li>오프라인 파일 백업 (.ice)</li>
+                </ul>
+              </div>
+              <div class="div56">
+                <ul class="ul">
+                  <li>기본 모듈 사용가능</li>
+                </ul>
+              </div>
+            </div>
+            <div class="parent">
+              <div class="div7">고객 지원</div>
+              <div class="div4">
+                <ul class="ul">
+                  <li>고객 1:1 지원</li>
+                </ul>
+              </div>
+              <div class="div56">
+                <ul class="ul">
+                  <li>기본 모듈 사용가능</li>
+                </ul>
+              </div>
+              <div class="div56">
+                <ul class="ul">
+                  <li>기본 모듈 사용가능</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div73">
+        <b class="b">요금제와 기능</b>
+        <div class="frame-parent5">
+          <div class="parent16">
+            <div class="div74"></div>
+            <div class="free-parent">
+              <div class="plus">Free</div>
+              <div class="div2">
+                <p class="p">무료</p>
+              </div>
+              <div class="link">
+                <div class="div3">사용 문의하기</div>
+              </div>
+            </div>
+            <div class="free-parent">
+              <div class="plus">Plus</div>
+              <div class="div2">
+                <p class="p">KRW 1,000/게스트</p>
+              </div>
+              <div class="link1">
+                <div class="div3">요금제 선택</div>
+              </div>
+            </div>
+            <div class="free-parent">
+              <div class="plus">Business</div>
+              <div class="div2">
+                <p class="p">KRW 9,000/게스트</p>
+              </div>
+              <div class="link1">
+                <div class="div3">요금제 선택</div>
+              </div>
+            </div>
+            <div class="free-parent">
+              <div class="plus">Enterprise</div>
+              <div class="div2">
+                <p class="p">가격 문의</p>
+              </div>
+              <div class="link1">
+                <div class="div3">영업팀에게 문의</div>
+              </div>
+            </div>
+          </div>
+          <div class="div81">
+            <div class="frame">
+              <div class="div82">콘텐츠</div>
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">참가자간 실시간 인터렉션</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div85">
+            <div class="wrapper2">
+              <div class="div82">동시 생성 방 수</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">1개</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">5개</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">10개</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">협의</div>
+            </div>
+          </div>
+          <div class="div85">
+            <div class="wrapper2">
+              <div class="div82">참여 게스트 수</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">10명까지 참여 가능</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">50명까지 참여 가능</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">100명까지 참여 가능</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">협의</div>
+            </div>
+          </div>
+          <div class="div97"></div>
+          <div class="div81">
+            <div class="frame">
+              <div class="div82">모듈 기능 사용</div>
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">정보 모듈 (텍스트, 프로필, 인벤토리)</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">
+                참여 모듈 (설문, 투표, 매칭, 밸런스, 가중치)
+              </div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">소통 모듈 (채팅, 쪽지)</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">관리 모듈 (팀배정, 현황)</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">QR 코드 모듈</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">함수 모듈</div>
+            </div>
+            <div class="child"></div>
+            <div class="wrapper19">
+              <div class="div87">추가 비용</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div85">
+            <div class="wrapper2">
+              <div class="div82">맞춤 모듈 개발</div>
+            </div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <div class="div87">추가 비용</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">추가 비용</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div97"></div>
+          <div class="div81">
+            <div class="frame">
+              <div class="div82">콘텐츠 제작</div>
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">실시간 타이머 설정</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">덱 시나리오 설계</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div85">
+            <div class="wrapper2">
+              <div class="div82">모듈 생성</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">10개</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">무제한</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">무제한</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">무제한</div>
+            </div>
+          </div>
+          <div class="div85">
+            <div class="wrapper2">
+              <div class="div82">덱 생성</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">3개</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">무제한</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">무제한</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">무제한</div>
+            </div>
+          </div>
+          <div class="div85">
+            <div class="wrapper2">
+              <div class="div82">프레젠테이션 연결</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">1개</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">3개</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">5개</div>
+            </div>
+            <div class="svg-wrapper">
+              <div class="div87">10개</div>
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">방 포스터 디자인</div>
+            </div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">참가자 뷰 커스텀 디자인</div>
+            </div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">다크모드 지원</div>
+            </div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div97"></div>
+          <div class="div81">
+            <div class="frame">
+              <div class="div82">관리 및 보안</div>
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">방 비밀번호 설정</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">방 링크로 바로입장</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">QR코드로 바로입장</div>
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">바로입장 코드생성</div>
+            </div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">오프라인 파일 백업</div>
+            </div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">온라인 파일 백업</div>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">공동진행자 설정 가능</div>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">편집 권한 제한 설정 가능</div>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">참가자 액세스 제한</div>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div97"></div>
+          <div class="div81">
+            <div class="frame">
+              <div class="div82">고객지원</div>
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">고객 1:1 지원</div>
+            </div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">오퍼레이션 지원</div>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+          <div class="div83">
+            <div class="frame">
+              <div class="div82">우선 지원 서비스</div>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="svg-wrapper">
+              <img class="svg-icon" alt="" src="SVG.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
