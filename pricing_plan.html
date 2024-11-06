@@ -5,6 +5,11 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
     <link rel="stylesheet" href="./pricing_plan.css" />
+
+    <link rel="stylesheet" href="./header.css" />
+
+    <link rel="stylesheet" href="./header_1100.css" />
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap"
@@ -18,6 +23,7 @@
       $("#header").load("./header.html");
       $(document).ajaxComplete(function () {
         $("#header .tab.desktop_view").eq(1).addClass("on");
+        $(".mobile-tab").eq(1).addClass("on");
       });
     });
   </script>

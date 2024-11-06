@@ -9,6 +9,10 @@
 
     <link rel="stylesheet" href="./index_600.css" />
 
+    <link rel="stylesheet" href="./header.css" />
+
+    <link rel="stylesheet" href="./header_1100.css" />
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap"
@@ -22,6 +26,7 @@
       $("#header").load("./header.html");
       $(document).ajaxComplete(function () {
         $("#header .tab.desktop_view").eq(0).addClass("on");
+        $(".mobile-tab").eq(0).addClass("on");
       });
     });
   </script>
@@ -36,7 +41,9 @@
             <div class="div25">
               <b class="design-your-meet">Design Your MEET</b>
               <div class="div26">
-                미팅의 모든 순간을 디자인하는 <div class="enter"></div>실시간 인터랙션 빌더
+                미팅의 모든 순간을 디자인하는
+                <div class="enter"></div>
+                실시간 인터랙션 빌더
               </div>
             </div>
             <div class="link">
