@@ -1,0 +1,705 @@
+.p {
+  margin: 0;
+}
+.b {
+  position: relative;
+  line-height: 130%;
+}
+.plus {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  font-weight: 600;
+}
+.div2 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 600;
+}
+.plus-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 32px;
+}
+.krw-1000cradit {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.4px;
+  line-height: 140%;
+  font-weight: 600;
+}
+.cradit-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 20.3px;
+  display: flex;
+  align-items: center;
+  height: 41px;
+  flex-shrink: 0;
+}
+.div3 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 26px;
+}
+.link {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+.ul {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 19px;
+}
+.div4 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 20px;
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.div7 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 20px;
+  font-weight: 600;
+}
+.frame-group {
+  flex: 1 1 22%;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 720px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+.span {
+  font-size: 16px;
+}
+.link1 {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.b1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.cradit-container4 {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 20.3px;
+}
+.frame-parent4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.div56 {
+  width: 271px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 20px;
+  display: none;
+}
+.parent11 {
+  width: 1028px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 14px;
+}
+.frame-parent3 {
+  align-self: stretch;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+  font-size: 32px;
+}
+.div1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 100px 40px;
+  box-sizing: border-box;
+  gap: 50px;
+  max-width: 1480px;
+}
+.div74 {
+  align-self: stretch;
+  width: 335px;
+  position: relative;
+}
+.free-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px;
+  gap: 8px;
+}
+.parent16 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 32px;
+  color: #000;
+}
+.div82 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.frame {
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+.div81 {
+  align-self: stretch;
+  border-bottom: 1px solid #111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+  color: #767676;
+}
+.svg-icon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+}
+.svg-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 8px;
+}
+.div83 {
+  align-self: stretch;
+  border-bottom: 1px solid #e5e5ec;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+}
+.wrapper2 {
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  color: #111;
+}
+.div87 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04px;
+  line-height: 22px;
+}
+.div85 {
+  align-self: stretch;
+  border-bottom: 1px solid #e5e5ec;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+  color: #333;
+}
+.div97 {
+  align-self: stretch;
+  height: 46px;
+}
+.child {
+  flex: 1;
+  height: 30px;
+  padding: 4px 8px;
+}
+.wrapper19 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 8px;
+  color: #333;
+}
+.frame-parent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 15px;
+  color: #111;
+}
+.div73 {
+  width: 100%;
+  height: 1879px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 100px 40px;
+  box-sizing: border-box;
+  gap: 50px;
+  max-width: 1480px;
+}
+.div {
+  width: 100%;
+  position: relative;
+  height: 3582px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 52px;
+  color: #000;
+  font-family: Pretendard;
+}
+
+/* 화면이 좁아질 때 2열로 배치 */
+@media (max-width: 1240px) {
+  .p {
+    margin: 0;
+  }
+  .b {
+    position: relative;
+    line-height: 130%;
+    font-size: 40px;
+  }
+  .plus {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 140%;
+    font-weight: 600;
+  }
+  .div1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    font-weight: 600;
+  }
+  .plus-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 32px;
+  }
+  .krw-1000cradit {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 140%;
+    font-weight: 600;
+  }
+  .cradit-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 20.3px;
+    display: flex;
+    align-items: center;
+    height: 41px;
+    flex-shrink: 0;
+  }
+  .div2 {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 26px;
+  }
+  .link {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .ul {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 19px;
+  }
+  .div3 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+  }
+  .parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .div6 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .frame-group {
+    flex: 1 1 48%;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 720px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+  }
+  .span {
+    font-size: 16px;
+  }
+  .link1 {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+  }
+  .b1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+  }
+  .instance-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    min-width: 540px;
+  }
+  .wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+    font-size: 14px;
+  }
+  .div {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 100px 40px;
+    box-sizing: border-box;
+    gap: 50px;
+    max-width: 1480px;
+    text-align: left;
+    font-size: 40px;
+    color: #000;
+    font-family: Pretendard;
+  }
+}
+
+/* 화면이 좁아질 때 1열로 배치 */
+@media (max-width: 768px) {
+  .p {
+    margin: 0;
+  }
+  .b {
+    align-self: stretch;
+    position: relative;
+    line-height: 130%;
+    font-size: 28px;
+  }
+  .plus {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 140%;
+    font-weight: 600;
+  }
+  .div1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    font-weight: 600;
+  }
+  .plus-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 32px;
+  }
+  .krw-1000cradit {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 140%;
+    font-weight: 600;
+  }
+  .cradit-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 20.3px;
+    display: flex;
+    align-items: center;
+    height: 41px;
+    flex-shrink: 0;
+  }
+  .div2 {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 26px;
+  }
+  .link {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .ul {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 19px;
+  }
+  .div3 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+  }
+  .parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .div6 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .frame-group {
+    flex: 1 1 22%;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 720px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+    min-width: 300px;
+  }
+  .span {
+    font-size: 16px;
+  }
+  .link1 {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+  }
+  .b1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+  }
+  .wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+    font-size: 14px;
+  }
+  .div {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    box-sizing: border-box;
+    gap: 50px;
+    max-width: 1480px;
+    text-align: left;
+    font-size: 28px;
+    color: #000;
+    font-family: Pretendard;
+  }
+}
