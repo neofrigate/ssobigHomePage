@@ -20,6 +20,9 @@
     $(document).ready(function () {
       $.support.cors = true;
       $("#header").load("./header.html");
+      $(document).ajaxComplete(function () {
+        $("#header .tab.desktop_view").eq(0).addClass("on");
+      });
     });
   </script>
   <body>
