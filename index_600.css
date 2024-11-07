@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-  .enter {
+  .enter_600 {
     display: block;
   }
   .div1 {
@@ -238,7 +238,6 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    background-image: url("Desktop.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
