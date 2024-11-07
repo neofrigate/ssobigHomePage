@@ -1,8 +1,8 @@
 @media (max-width: 600px) {
   .ssobig_join_union-icon {
     position: relative;
-    width: 95.6px;
-    height: 60px;
+    width: 45.7px;
+    height: 29px;
     mix-blend-mode: normal;
   }
   .ssobig_join_icon {
@@ -18,9 +18,9 @@
     max-height: 100%;
   }
   .ssobig_join_div2 {
-    width: 272px;
+    width: 130px;
     position: relative;
-    height: 60px;
+    height: 29px;
   }
   .ssobig_join_div1 {
     display: flex;
@@ -46,9 +46,9 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    padding: 12px 60px;
+    padding: 12px 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #000;
   }
   .ssobig_join_parent {
@@ -66,7 +66,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 100px 60px;
+    padding: 40px 20px;
     box-sizing: border-box;
   }
   .ssobig_join_desktop {
@@ -77,7 +77,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 44px;
+    font-size: 24px;
     color: #fff;
     font-family: Pretendard;
   }
