@@ -1,4 +1,4 @@
-@media (max-width: 1100px) {
+@media (max-width: 600px) {
   .communication_b {
     align-self: stretch;
     position: relative;
@@ -15,7 +15,7 @@
     margin: 0;
     font-family: inherit;
     font-size: inherit;
-    padding-left: 24px;
+    padding-left: 21px;
   }
   .communication_b1 {
     flex: 1;
@@ -57,8 +57,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 12px;
-    font-size: 18px;
+    gap: 8px;
+    font-size: 16px;
     color: #333;
   }
   .communication_div2 {
@@ -74,7 +74,7 @@
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    height: 467px;
+    height: 300px;
     object-fit: cover;
   }
   .communication_div1 {
@@ -83,7 +83,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 30px;
+    gap: 20px;
   }
   .communication_div {
     flex: 1;
@@ -92,9 +92,9 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 60px 40px;
+    padding: 40px 20px;
     box-sizing: border-box;
-    min-width: 600px;
+    min-width: 360px;
   }
   .communication_desktop {
     width: 100%;
@@ -104,9 +104,9 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    min-width: 600px;
+    min-width: 360px;
     text-align: left;
-    font-size: 36px;
+    font-size: 24px;
     color: #111;
     font-family: Pretendard;
   }
