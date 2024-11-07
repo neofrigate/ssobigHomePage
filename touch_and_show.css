@@ -2,6 +2,8 @@
   margin: 0;
 }
 .touch_and_show_b {
+  word-break: keep-all; /* 어절 단위로 줄바꿈 */
+  white-space: normal; /* 텍스트가 여러 줄로 개행될 수 있도록 설정 */
   align-self: stretch;
   position: relative;
   line-height: 130%;

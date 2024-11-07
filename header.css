@@ -2,6 +2,10 @@ body {
   margin: 0;
   line-height: normal;
 }
+p {
+  word-break: keep-all; /* 어절 단위로 줄바꿈 */
+  white-space: normal; /* 텍스트가 여러 줄로 개행될 수 있도록 설정 */
+}
 .header-mobile {
   display: none;
 }
