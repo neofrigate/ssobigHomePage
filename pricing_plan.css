@@ -346,6 +346,7 @@
   padding: 100px 30px;
   box-sizing: border-box;
   min-width: 1100px;
+  max-width: 1500px;
 }
 .desktop2 {
   background-color: #fff;
@@ -354,6 +355,7 @@
   align-items: flex-start;
   justify-content: center;
   min-width: 1100px;
+  width: 100%;
 }
 .b6 {
   position: relative;
@@ -596,6 +598,7 @@
   padding: 100px 60px;
   box-sizing: border-box;
   min-width: 1100px;
+  max-width: 1500px;
 }
 .desktop4 {
   background-color: #f0f0f0;
@@ -604,6 +607,7 @@
   align-items: flex-start;
   justify-content: center;
   min-width: 1100px;
+  width: 100%;
 }
 .union-icon1 {
   position: relative;
@@ -686,21 +690,20 @@
 }
 .desktop5 {
   background-color: #000;
+  color: #fff;
+  width: 100%; /* 화면의 너비를 가득 채우도록 수정 */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  min-width: 1100px;
-  color: #fff;
 }
 .div {
-  width: 100%;
+  width: 100%; /* 부모 요소가 화면의 너비를 가득 채우도록 수정 */
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 1100px;
   text-align: left;
   font-size: 44px;
   color: #111;
