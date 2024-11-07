@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .div1 {
     align-self: stretch;
     flex: 1;
@@ -576,7 +576,7 @@
   .div191 {
     flex: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -700,7 +700,7 @@
     justify-content: flex-start;
     min-width: 360px;
     text-align: left;
-    font-size: 36px;
+    font-size: 24px;
     color: #111;
     font-family: Pretendard;
   }
