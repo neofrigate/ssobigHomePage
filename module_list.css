@@ -73,7 +73,8 @@
   gap: 8px;
 }
 .module_list_div3 {
-  flex: 1 1 calc(100% / 6 - 20px); /* 6줄로 나열되도록 너비 계산 */
+  flex: 0 0 calc(100% / 6 - 30px); /* 너비를 6등분 */
+  max-width: calc(100% / 6);
   border-radius: 8px;
   background-color: #fff;
   border: 1px solid #000;
@@ -84,7 +85,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 20px;
-  min-width: 170px;
 }
 .module_list_frame-container {
   display: flex;
@@ -92,6 +92,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 8px;
+  min-width: 1100px;
 }
 .module_list_icon11 {
   align-self: stretch;
@@ -146,10 +147,9 @@
   overflow: hidden;
 }
 .module_list_group {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 20px;
