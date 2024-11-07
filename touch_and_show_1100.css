@@ -310,7 +310,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     justify-content: flex-start;
     gap: 16px;
     text-align: center;

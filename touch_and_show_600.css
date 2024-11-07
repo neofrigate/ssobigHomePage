@@ -249,7 +249,7 @@
     height: 119px;
     overflow-y: auto;
     flex-shrink: 0;
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
@@ -269,6 +269,7 @@
     color: #fe5114;
   }
   .touch_and_show_item {
+    order: -1;
     flex: 1;
     background-color: #fff;
     border: 1px solid #fe5114;
@@ -277,6 +278,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding: 8px 0px;
+    width: 100%;
   }
 
   .touch_on {
@@ -305,11 +307,12 @@
     height: 319.7px;
   }
   .deck_div {
+    order: 1;
     flex: 1;
     width: 100%;
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     gap: 16px;
