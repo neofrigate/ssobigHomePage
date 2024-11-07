@@ -29,6 +29,9 @@
       $("#communication").load("./communication.html");
       $("#touch_and_show").load("./touch_and_show.html");
       $("#module_list").load("./module_list.html");
+      $("#ssobig_join").load("./ssobig_join.html");
+      $("#video").load("./video.html");
+
       $(document).ajaxComplete(function () {
         $("#header .tab.desktop_view").eq(0).addClass("on");
         $(".mobile-tab").eq(0).addClass("on");
@@ -54,9 +57,9 @@
                 인터랙션 빌더
               </div>
             </div>
-            <div class="link">
-              <div class="div27">쏘빅에 입장하기</div>
-            </div>
+            <a href="https://tool.ssobig.com" target="_blank" class="link">
+              <span class="div27">쏘빅에 입장하기</span>
+            </a>
           </div>
         </div>
         <div class="div1"></div>
@@ -91,6 +94,8 @@
       </div>
       <div id="touch_and_show"></div>
       <div id="module_list"></div>
+      <div id="ssobig_join"></div>
+      <div id="video"></div>
     </div>
   </body>
 </html>
