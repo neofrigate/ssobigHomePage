@@ -395,8 +395,7 @@
 .inner {
   flex: 1;
   position: relative;
-  background-color: #838383;
-  height: 396.5px;
+  height: auto;
 }
 .div43 {
   align-self: stretch;
@@ -691,4 +690,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   min-width: 1100px;
+}
+
+.web {
+  width: 100%;
 }
