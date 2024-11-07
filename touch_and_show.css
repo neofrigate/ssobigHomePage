@@ -115,6 +115,7 @@
   box-sizing: border-box;
   gap: 40px;
   min-width: 1100px;
+  max-width: 1500px;
   text-align: left;
   font-size: 44px;
   color: #111;
