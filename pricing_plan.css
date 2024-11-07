@@ -1,7 +1,186 @@
+.div1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.union-icon {
+  position: relative;
+  width: 56.6px;
+  height: 36px;
+  mix-blend-mode: normal;
+}
+.icon {
+  position: absolute;
+  height: 85.83%;
+  width: 56.27%;
+  top: 14.29%;
+  right: -0.01%;
+  bottom: -0.12%;
+  left: 43.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div4 {
+  width: 161px;
+  position: relative;
+  height: 36px;
+}
+.div5 {
+  align-self: stretch;
+  width: 12px;
+  position: relative;
+}
+.div6 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+  color: #999;
+}
+.b {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+}
+.div8 {
+  align-self: stretch;
+  border-bottom: 4px solid #9747ff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+}
+.div10 {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+}
+.div12 {
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+  color: #000;
+}
+.parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.div3 {
+  align-self: stretch;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.div2 {
+  flex: 0.92;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 60px;
+  box-sizing: border-box;
+  min-width: 1100px;
+}
+.desktop {
+  align-self: stretch;
+  background-color: #000;
+  border-bottom: 1px solid #1c1c21;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 1100px;
+  font-size: 20px;
+  color: #fff;
+}
+.div18 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+}
+.div20 {
+  align-self: stretch;
+  border-bottom: 4px solid #9747ff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+  color: #fff;
+}
+.wrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div17 {
+  align-self: stretch;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.div16 {
+  flex: 0.8125;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 60px;
+}
+.desktop1 {
+  width: 1920px;
+  background-color: #000;
+  border-bottom: 1px solid #1c1c21;
+  box-sizing: border-box;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 20px;
+  color: #999;
+}
 .p {
   margin: 0;
 }
-.b {
+.b2 {
+  align-self: stretch;
   position: relative;
   line-height: 130%;
 }
@@ -12,10 +191,10 @@
   line-height: 140%;
   font-weight: 600;
 }
-.div2 {
+.div27 {
   align-self: stretch;
   position: relative;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: -0.02em;
   line-height: 120%;
   font-weight: 600;
@@ -27,12 +206,12 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 8px;
-  font-size: 32px;
+  font-size: 28px;
 }
 .krw-1000cradit {
   align-self: stretch;
   position: relative;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.6px;
   line-height: 140%;
   font-weight: 600;
 }
@@ -46,23 +225,24 @@
   height: 41px;
   flex-shrink: 0;
 }
-.div3 {
+.div28 {
   position: relative;
   letter-spacing: -0.02em;
-  line-height: 26px;
+  line-height: 110%;
 }
 .link {
   align-self: stretch;
-  border-radius: 8px;
+  border-radius: 4px;
   background-color: #fff;
   border: 1px solid #000;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   padding: 12px;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 .ul {
   margin: 0;
@@ -70,146 +250,118 @@
   font-size: inherit;
   padding-left: 19px;
 }
-.div4 {
+.div29 {
   align-self: stretch;
   position: relative;
   letter-spacing: -0.02em;
   line-height: 20px;
 }
-.parent {
+.group {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 8px;
+  gap: 4px;
 }
-.div7 {
+.div32 {
   align-self: stretch;
   position: relative;
   letter-spacing: -0.02em;
   line-height: 20px;
   font-weight: 600;
 }
-.frame-group {
-  flex: 1 1 22%;
-  border-radius: 12px;
-  background-color: #fff;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  height: 720px;
-  overflow: hidden;
+.frame-parent {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: 20px;
   gap: 20px;
+  height: 100%; /* Makes each frame-parent fill the height of the instance-parent */
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
 }
 .span {
   font-size: 16px;
 }
 .link1 {
   align-self: stretch;
-  border-radius: 8px;
+  border-radius: 4px;
   background-color: #000;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   padding: 12px;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
 }
-.b1 {
+.b3 {
   align-self: stretch;
   position: relative;
   font-size: 16px;
   letter-spacing: -0.02em;
   line-height: 120%;
 }
-.wrapper {
-  align-self: stretch;
+.instance-parent {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: stretch; /* Ensures all child elements stretch to the tallest element */
   justify-content: flex-start;
+  gap: 30px;
+  width: 100%; /* Adjust width as needed */
 }
-.frame-parent {
+.div26 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-content: flex-start;
-  gap: 20px;
+  gap: 40px;
   font-size: 14px;
+  color: #000;
 }
-
-.cradit-container4 {
+.div25 {
   align-self: stretch;
-  position: relative;
-  font-size: 14px;
-  line-height: 20.3px;
-}
-.frame-parent4 {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 40px;
 }
-.div56 {
-  width: 271px;
-  position: relative;
-  letter-spacing: -0.02em;
-  line-height: 20px;
-  display: none;
-}
-.parent11 {
-  width: 1028px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 20px;
-  font-size: 14px;
-}
-.frame-parent3 {
-  align-self: stretch;
-  border-radius: 12px;
-  background-color: #fff;
-  border: 1px solid #000;
+.div24 {
+  flex: 0.92;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 100px 30px;
+  box-sizing: border-box;
+  min-width: 1100px;
+}
+.desktop2 {
+  align-self: stretch;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  padding: 20px;
-  gap: 20px;
-  font-size: 32px;
+  justify-content: center;
+  min-width: 1100px;
 }
-.div1 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 100px 40px;
-  box-sizing: border-box;
-  gap: 50px;
-  max-width: 1480px;
-}
-.div74 {
-  align-self: stretch;
-  width: 335px;
+.b6 {
   position: relative;
+  line-height: 130%;
 }
 .free-parent {
-  flex: 1;
+  flex: 0.942;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -217,7 +369,7 @@
   padding: 8px;
   gap: 8px;
 }
-.parent16 {
+.parent13 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -226,7 +378,7 @@
   font-size: 32px;
   color: #000;
 }
-.div82 {
+.div92 {
   flex: 1;
   position: relative;
   letter-spacing: 0.04px;
@@ -242,7 +394,7 @@
   padding: 4px 8px;
   box-sizing: border-box;
 }
-.div81 {
+.div91 {
   align-self: stretch;
   border-bottom: 1px solid #111;
   display: flex;
@@ -251,6 +403,14 @@
   justify-content: flex-start;
   padding: 8px 0px;
   color: #767676;
+}
+.wrapper1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
 }
 .svg-icon {
   width: 18px;
@@ -265,7 +425,7 @@
   justify-content: flex-start;
   padding: 4px 8px;
 }
-.div83 {
+.div93 {
   align-self: stretch;
   border-bottom: 1px solid #e5e5ec;
   display: flex;
@@ -275,22 +435,21 @@
   padding: 8px 0px;
 }
 .wrapper2 {
-  width: 335px;
+  flex: 1;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 4px 8px;
-  box-sizing: border-box;
   color: #111;
 }
-.div87 {
+.div97 {
   flex: 1;
   position: relative;
   letter-spacing: 0.04px;
   line-height: 22px;
 }
-.div85 {
+.div95 {
   align-self: stretch;
   border-bottom: 1px solid #e5e5ec;
   display: flex;
@@ -300,13 +459,16 @@
   padding: 8px 0px;
   color: #333;
 }
-.div97 {
+.div107 {
   align-self: stretch;
   height: 46px;
 }
 .child {
   flex: 1;
-  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   padding: 4px 8px;
 }
 .wrapper19 {
@@ -318,388 +480,229 @@
   padding: 4px 8px;
   color: #333;
 }
-.frame-parent5 {
+.frame-parent2 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   font-size: 15px;
-  color: #111;
 }
-.div73 {
-  width: 100%;
-  height: 1879px;
+.faq {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  min-width: 249px;
+}
+.div193 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01px;
+  line-height: 23px;
+  font-weight: 600;
+}
+.svg-icon74 {
+  width: 14px;
+  position: relative;
+  height: 14px;
+}
+.container2 {
+  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 100px 40px;
-  box-sizing: border-box;
-  gap: 50px;
-  max-width: 1480px;
 }
-.div {
-  width: 100%;
-  position: relative;
-  height: 3582px;
+.container1 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.div192 {
+  align-self: stretch;
+  border-top: 1px solid #111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0px;
+  gap: 10px;
+}
+.faq2 {
+  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  text-align: left;
-  font-size: 52px;
+}
+.faq-child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div199 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01px;
+  line-height: 140%;
+}
+.div198 {
+  align-self: stretch;
+  border-bottom: 1px solid #111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 20px;
+  color: #333;
+}
+.faq-parent {
+  flex: 1;
+  border-bottom: 1px solid #111;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 249px;
+  font-size: 20px;
+}
+.div191 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 40px;
+}
+.div190 {
+  flex: 0.92;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 100px 60px;
+  box-sizing: border-box;
+  min-width: 1100px;
+}
+.desktop4 {
+  align-self: stretch;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 1100px;
+}
+.union-icon1 {
+  position: relative;
+  width: 95.6px;
+  height: 60px;
+  mix-blend-mode: normal;
+}
+.icon1 {
+  position: absolute;
+  height: 85.67%;
+  width: 56.25%;
+  top: 14.29%;
+  right: 0.01%;
+  bottom: 0.05%;
+  left: 43.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div206 {
+  width: 272px;
+  position: relative;
+  height: 60px;
+}
+.div205 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.union-icon2 {
+  position: relative;
+  width: 45.7px;
+  height: 29px;
+  mix-blend-mode: normal;
+}
+.icon2 {
+  position: absolute;
+  height: 85.86%;
+  width: 56.23%;
+  top: 14.29%;
+  right: 0.03%;
+  bottom: -0.15%;
+  left: 43.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div207 {
+  width: 130px;
+  position: relative;
+  height: 29px;
+  display: none;
+}
+.div208 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+.link8 {
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 60px;
+  font-size: 20px;
   color: #000;
+}
+.parent14 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.desktop5 {
+  align-self: stretch;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 1100px;
+  color: #fff;
+}
+.div {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 1100px;
+  text-align: left;
+  font-size: 44px;
+  color: #111;
   font-family: Pretendard;
-}
-
-/* 화면이 좁아질 때 2열로 배치 */
-@media (max-width: 1240px) {
-  .p {
-    margin: 0;
-  }
-  .b {
-    position: relative;
-    line-height: 130%;
-    font-size: 40px;
-  }
-  .plus {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 140%;
-    font-weight: 600;
-  }
-  .div1 {
-    align-self: stretch;
-    position: relative;
-    font-size: 16px;
-    letter-spacing: -0.02em;
-    line-height: 120%;
-    font-weight: 600;
-  }
-  .plus-parent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 8px;
-    font-size: 32px;
-  }
-  .krw-1000cradit {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.4px;
-    line-height: 140%;
-    font-weight: 600;
-  }
-  .cradit-container {
-    align-self: stretch;
-    position: relative;
-    font-size: 14px;
-    line-height: 20.3px;
-    display: flex;
-    align-items: center;
-    height: 41px;
-    flex-shrink: 0;
-  }
-  .div2 {
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 26px;
-  }
-  .link {
-    align-self: stretch;
-    border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #000;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 12px;
-    text-align: center;
-    font-size: 18px;
-  }
-  .ul {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    padding-left: 19px;
-  }
-  .div3 {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 20px;
-  }
-  .parent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 8px;
-  }
-  .div6 {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 20px;
-    font-weight: 600;
-  }
-  .frame-group {
-    flex: 1 1 48%;
-    border-radius: 12px;
-    background-color: #fff;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    height: 720px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 20px;
-    gap: 20px;
-  }
-  .span {
-    font-size: 16px;
-  }
-  .link1 {
-    align-self: stretch;
-    border-radius: 8px;
-    background-color: #000;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 12px;
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
-  }
-  .b1 {
-    align-self: stretch;
-    position: relative;
-    font-size: 16px;
-    letter-spacing: -0.02em;
-    line-height: 120%;
-  }
-  .instance-parent {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-    min-width: 540px;
-  }
-  .wrapper {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frame-parent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    gap: 20px;
-    font-size: 14px;
-  }
-  .div {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 100px 40px;
-    box-sizing: border-box;
-    gap: 50px;
-    max-width: 1480px;
-    text-align: left;
-    font-size: 40px;
-    color: #000;
-    font-family: Pretendard;
-  }
-}
-
-/* 화면이 좁아질 때 1열로 배치 */
-@media (max-width: 768px) {
-  .p {
-    margin: 0;
-  }
-  .b {
-    align-self: stretch;
-    position: relative;
-    line-height: 130%;
-    font-size: 28px;
-  }
-  .plus {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 140%;
-    font-weight: 600;
-  }
-  .div1 {
-    align-self: stretch;
-    position: relative;
-    font-size: 16px;
-    letter-spacing: -0.02em;
-    line-height: 120%;
-    font-weight: 600;
-  }
-  .plus-parent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 8px;
-    font-size: 32px;
-  }
-  .krw-1000cradit {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.4px;
-    line-height: 140%;
-    font-weight: 600;
-  }
-  .cradit-container {
-    align-self: stretch;
-    position: relative;
-    font-size: 14px;
-    line-height: 20.3px;
-    display: flex;
-    align-items: center;
-    height: 41px;
-    flex-shrink: 0;
-  }
-  .div2 {
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 26px;
-  }
-  .link {
-    align-self: stretch;
-    border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #000;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 12px;
-    text-align: center;
-    font-size: 18px;
-  }
-  .ul {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    padding-left: 19px;
-  }
-  .div3 {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 20px;
-  }
-  .parent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 8px;
-  }
-  .div6 {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 20px;
-    font-weight: 600;
-  }
-  .frame-group {
-    flex: 1 1 22%;
-    border-radius: 12px;
-    background-color: #fff;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    height: 720px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 20px;
-    gap: 20px;
-    min-width: 300px;
-  }
-  .span {
-    font-size: 16px;
-  }
-  .link1 {
-    align-self: stretch;
-    border-radius: 8px;
-    background-color: #000;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 12px;
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
-  }
-  .b1 {
-    align-self: stretch;
-    position: relative;
-    font-size: 16px;
-    letter-spacing: -0.02em;
-    line-height: 120%;
-  }
-  .wrapper {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frame-parent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    gap: 20px;
-    font-size: 14px;
-  }
-  .div {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px;
-    box-sizing: border-box;
-    gap: 50px;
-    max-width: 1480px;
-    text-align: left;
-    font-size: 28px;
-    color: #000;
-    font-family: Pretendard;
-  }
 }
