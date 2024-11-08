@@ -31,10 +31,10 @@
     max-height: 100%;
   }
   .module_list_wrapper {
-    width: 60px;
+    width: 10vw;
     border-radius: 8px;
     background-color: #f8f8f8;
-    height: 60px;
+    height: 10vw;
     overflow: hidden;
     flex-shrink: 0;
     display: flex;
@@ -55,13 +55,13 @@
     position: relative;
     letter-spacing: -0.02em;
     line-height: 140%;
-    font-size: 18px;
+    font-size: 4.5vw;
     font-weight: 600;
   }
   .module_list_div5 {
     align-self: stretch;
     position: relative;
-    font-size: 16px;
+    font-size: 4vw;
     letter-spacing: -0.02em;
     line-height: 140%;
   }
@@ -93,7 +93,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 8px;
-    min-width: 360px;
+    min-width: 300px;
   }
   .module_list_icon11 {
     align-self: stretch;
