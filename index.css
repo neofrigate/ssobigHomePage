@@ -740,7 +740,7 @@
 
 #footer {
   align-self: stretch;
-  height: 20vw;
+  height: 20vh;
   background-color: #000;
   display: flex;
   flex-direction: row;
