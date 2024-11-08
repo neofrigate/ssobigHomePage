@@ -53,3 +53,31 @@
     background-color: #000;
   }
 }
+@media (max-width: 600px) {
+  .tab-text {
+    font-size: 14px;
+  }
+  .contact {
+    border-radius: 4px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #fff;
+  }
+  .ssobig-icon {
+    position: relative;
+    width: 47.6px;
+    height: 36px;
+    mix-blend-mode: normal;
+  }
+  .logo {
+    width: 130px;
+    position: relative;
+    height: 36px;
+  }
+}
