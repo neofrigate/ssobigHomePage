@@ -172,7 +172,7 @@
     justify-content: flex-start;
     padding: 40px 20px;
     box-sizing: border-box;
-    min-width: 360px;
+    min-width: 300px;
   }
   .module_list_desktop {
     width: 100%;
@@ -182,7 +182,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    min-width: 360px;
+    min-width: 300px;
     text-align: left;
     font-size: 24px;
     color: #111;

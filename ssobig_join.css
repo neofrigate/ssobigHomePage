@@ -31,6 +31,7 @@
   position: relative;
   line-height: 120%;
   font-weight: 600;
+  text-align: center;
 }
 .ssobig_join_div4 {
   position: relative;
@@ -69,6 +70,8 @@
   box-sizing: border-box;
 }
 .ssobig_join_desktop {
+  word-break: keep-all; /* 어절 단위로 줄바꿈 */
+  white-space: normal; /* 텍스트가 여러 줄로 개행될 수 있도록 설정 */
   width: 100%;
   position: relative;
   background-color: #000;
