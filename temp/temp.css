@@ -1,0 +1,654 @@
+.union-icon {
+  position: relative;
+  width: 56.6px;
+  height: 36px;
+  mix-blend-mode: normal;
+}
+.icon {
+  position: absolute;
+  height: 85.83%;
+  width: 56.27%;
+  top: 14.29%;
+  right: -0.01%;
+  bottom: -0.12%;
+  left: 43.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div3 {
+  width: 161px;
+  position: relative;
+  height: 36px;
+}
+.div4 {
+  align-self: stretch;
+  width: 12px;
+  position: relative;
+}
+.div5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.div6 {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+}
+.div8 {
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+  color: #000;
+}
+.parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.div2 {
+  align-self: stretch;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 40px;
+  box-sizing: border-box;
+  min-width: 600px;
+}
+.desktop {
+  align-self: stretch;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 600px;
+  font-size: 18px;
+  color: #fff;
+}
+.div12 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+}
+.b {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+}
+.div14 {
+  align-self: stretch;
+  border-bottom: 4px solid #9747ff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+  color: #fff;
+}
+.wrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div11 {
+  align-self: stretch;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.div10 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 40px;
+}
+.desktop1 {
+  align-self: stretch;
+  background-color: #000;
+  border-bottom: 1px solid #1c1c21;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 18px;
+  color: #999;
+}
+.p {
+  margin: 0;
+}
+.b1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+}
+.plus {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  font-weight: 600;
+}
+.div19 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 600;
+}
+.plus-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 30px;
+}
+.krw-1000cradit {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.4px;
+  line-height: 140%;
+  font-weight: 600;
+}
+.cradit-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 20.3px;
+  display: flex;
+  align-items: center;
+  height: 41px;
+  flex-shrink: 0;
+}
+.div20 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+}
+.link {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 40px;
+  text-align: center;
+  font-size: 18px;
+}
+.ul {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 19px;
+}
+.div21 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 20px;
+}
+.group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.div24 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 20px;
+  font-weight: 600;
+}
+.frame-parent {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 720px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+.span {
+  font-size: 16px;
+}
+.link1 {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.b2 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+}
+.instance-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div18 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 14px;
+  color: #000;
+}
+.div17 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.div16 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 60px 40px;
+  box-sizing: border-box;
+  min-width: 600px;
+}
+.desktop2 {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 600px;
+}
+.b5 {
+  position: relative;
+  line-height: 130%;
+}
+.free-parent {
+  flex: 0.902;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px;
+  gap: 8px;
+}
+.parent12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 28px;
+  color: #000;
+}
+.div81 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.wrapper1 {
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+.div80 {
+  align-self: stretch;
+  border-bottom: 1px solid #111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+  color: #767676;
+}
+.wrapper2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+}
+.svg-icon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+}
+.svg-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 8px;
+}
+.div82 {
+  align-self: stretch;
+  border-bottom: 1px solid #e5e5ec;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+}
+.wrapper3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  color: #111;
+}
+.div86 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04px;
+  line-height: 22px;
+}
+.div84 {
+  align-self: stretch;
+  border-bottom: 1px solid #e5e5ec;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+  color: #333;
+}
+.div96 {
+  align-self: stretch;
+  height: 46px;
+}
+.child {
+  flex: 1;
+  height: 30px;
+}
+.wrapper20 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 8px;
+  color: #333;
+}
+.frame-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 15px;
+}
+.faq {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  min-width: 249px;
+}
+.div180 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01px;
+  line-height: 23px;
+  font-weight: 600;
+}
+.svg-icon74 {
+  width: 14px;
+  position: relative;
+  height: 14px;
+}
+.container1 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.div179 {
+  align-self: stretch;
+  border-top: 1px solid #111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0px;
+  gap: 10px;
+}
+.faq-child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div182 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01px;
+  line-height: 140%;
+}
+.div181 {
+  align-self: stretch;
+  border-bottom: 1px solid #111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 20px;
+  color: #333;
+}
+.faq2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.faq-parent {
+  flex: 1;
+  border-bottom: 1px solid #111;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 249px;
+  font-size: 18px;
+}
+.div178 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 30px;
+}
+.div177 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 60px 40px;
+  box-sizing: border-box;
+  min-width: 600px;
+}
+.desktop4 {
+  align-self: stretch;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 600px;
+}
+.union-icon1 {
+  position: relative;
+  width: 45.7px;
+  height: 29px;
+  mix-blend-mode: normal;
+}
+.icon1 {
+  position: absolute;
+  height: 85.86%;
+  width: 56.23%;
+  top: 14.29%;
+  right: 0.03%;
+  bottom: -0.15%;
+  left: 43.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div220 {
+  width: 130px;
+  position: relative;
+  height: 29px;
+}
+.div221 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+.link8 {
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 40px;
+  font-size: 18px;
+  color: #000;
+}
+.parent13 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.desktop5 {
+  align-self: stretch;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 600px;
+  text-align: center;
+  color: #fff;
+}
+.div {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 600px;
+  max-width: 1100px;
+  text-align: left;
+  font-size: 36px;
+  color: #111;
+  font-family: Pretendard;
+}
+

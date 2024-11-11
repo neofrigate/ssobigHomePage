@@ -5,15 +5,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="icon" href="./Union.svg" />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./index_1100.css" />
+    <link rel="icon" href="/header/img/header_logo_icon.svg" />
+    <link rel="stylesheet" href="/index/_0_general/css/index.css" />
+    <link rel="stylesheet" href="/index/_0_general/css/index_1100.css" />
 
-    <link rel="stylesheet" href="./index_600.css" />
+    <link rel="stylesheet" href="/index/_0_general/css/index_600.css" />
 
-    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="/header/css/header.css" />
 
-    <link rel="stylesheet" href="./header_1100.css" />
+    <link rel="stylesheet" href="/header/css/header_1100.css" />
 
     <link
       rel="stylesheet"
@@ -25,12 +25,13 @@
   <script>
     $(document).ready(function () {
       $.support.cors = true;
-      $("#header").load("./header.html");
-      $("#communication").load("./communication.html");
-      $("#touch_and_show").load("./touch_and_show.html");
-      $("#module_list").load("./module_list.html");
-      $("#ssobig_join").load("./ssobig_join.html");
-      $("#video").load("./video.html");
+      $("#header").load("/header/header.html");
+      $("#communication").load("/index/_1_communication/communication.html");
+      $("#web_access").load("/index/_2_web_access/web_access.html");
+      $("#touch_and_show").load("/index/_3_touch_and_show/touch_and_show.html");
+      $("#module_list").load("/index/_4_module_list/module_list.html");
+      $("#ssobig_join").load("/index/_5_ssobig_join/ssobig_join.html");
+      $("#video").load("/index/_6_video/video.html");
 
       $(document).ajaxComplete(function () {
         $("#header .tab.desktop_view").eq(0).addClass("on");
@@ -39,60 +40,31 @@
     });
   </script>
   <body>
-    <div id="header"></div>
-
-    <div class="div">
+    <div id="header" class="fixed-top"></div>
+    <div class="container">
       <div class="gif-container"></div>
-      <div class="desktop2">
-        <div class="div1"></div>
-        <div class="div24">
-          <div class="group">
-            <div class="div25">
-              <b class="design-your-meet"
-                >Design <span class="enter_600"></span>Your
-                <span class="enter_600"></span>MEET</b
-              >
-              <div class="div26">
-                미팅의 모든 순간을 디자인하는 <span class="enter"></span>실시간
-                인터랙션 빌더
-              </div>
+      <div class="main-content">
+        <section class="intro">
+          <div class="intro_wrap">
+            <div class="text_group">
+              <b class="headline">Design Your MEET</b>
+              <p class="description">
+                미팅의 모든 순간을 디자인하는 실시간 인터랙션 빌더
+              </p>
             </div>
-            <a href="https://tool.ssobig.com" target="_blank" class="link">
-              <span class="div27">쏘빅에 입장하기</span>
-            </a>
+            <a href="https://tool.ssobig.com" target="_blank" class="btn-enter"
+              >쏘빅에 입장하기</a
+            >
           </div>
-        </div>
-        <div class="div1"></div>
+        </section>
+        <div id="communication"></div>
+        <div id="web_access"></div>
+        <div id="touch_and_show"></div>
+        <div id="module_list"></div>
+        <div id="ssobig_join"></div>
+        <div id="video"></div>
+        <div id="footer"></div>
       </div>
-      <div id="communication"></div>
-      <div class="desktop4">
-        <div class="div24">
-          <div class="div41">
-            <div class="parent1">
-              <b class="b2">
-                <p class="p">앱설치 없이 웹으로도 접속이 가능해 어느 모임이나 쉽게 적용이 가능합니다</p>
-              </b>
-              <div class="div42">
-                <p class="p">
-                  진행자는 간단한 웹 접속으로 제어가 가능하고,
-                </p>
-                <p class="p">
-                  참가자들도 앱 설치 없이 QR코드나 4자리 코드로 즉시 참여할 수 있어 모든 유형의 모임에 활용 가능합니다.
-                </p>
-              </div>
-            </div>
-            <div class="div43">
-              <div class="inner"><img class="web" alt="" src="web1.png" /></div>
-              <div class="inner"><img class="web" alt="" src="web2.png" /></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="touch_and_show"></div>
-      <div id="module_list"></div>
-      <div id="ssobig_join"></div>
-      <div id="video"></div>
-      <div id="footer"></div>
     </div>
   </body>
 </html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/index/_3_touch_and_show/css/touch_and_show.css" />
+    <link rel="stylesheet" href="/index/_3_touch_and_show/css/touch_and_show_1100.css" />
+    <link rel="stylesheet" href="/index/_3_touch_and_show/css/touch_and_show_600.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;700&display=swap"
+    />
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+  </head>
+  <script>
+    $(document).ready(function () {
+      $(".touch_and_show_item").on("click", function () {
+        // 모든 .touch_and_show_item에서 touch_on 클래스 제거
+        $(".touch_and_show_item").removeClass("touch_on");
+
+        // 클릭된 요소에 touch_on 클래스 추가
+        $(this).addClass("touch_on");
+
+        // 모든 img의 show_on 클래스 제거
+        $(".touch_and_show_div3 img").removeClass("show_on");
+
+        // 클릭된 요소의 인덱스를 가져와서 동일한 인덱스의 img에 show_on 클래스 추가
+        const index = $(this).index();
+        $(".touch_and_show_div3 img").eq(index).addClass("show_on");
+      });
+      let currentIndex = 0;
+      const items = $(".touch_and_show_item");
+      const images = $(".touch_and_show_div3 img");
+
+      function updateClasses() {
+        // 모든 요소에서 touch_on과 show_on 클래스를 제거
+        items.removeClass("touch_on");
+        images.removeClass("show_on");
+
+        // 현재 인덱스에 해당하는 요소에 touch_on 및 show_on 클래스 추가
+        items.eq(currentIndex).addClass("touch_on");
+        images.eq(currentIndex).addClass("show_on");
+
+        // 인덱스를 다음 요소로 설정 (마지막 요소일 경우 0으로 되돌림)
+        currentIndex = (currentIndex + 1) % items.length;
+      }
+      setInterval(updateClasses, 3000);
+    });
+  </script>
+  <body>
+    <div class="touch_and_show_div">
+      <div class="touch_and_show_parent">
+        <b class="touch_and_show_b">
+          <p class="touch_and_show_p">
+            한 번의 터치로 <span class="enter"></span>다중 컨텐츠를 자유롭게
+            변경하여
+          </p>
+          <p class="touch_and_show_p">진행자의 편의성을 높힙니다</p>
+        </b>
+        <div class="touch_and_show_div1">
+          <p class="touch_and_show_p">
+            진행자 뷰에서 컨텐츠 묶음인 덱을 전환하면 모든 화면이 바뀌고,
+          </p>
+          <p class="touch_and_show_p">
+            참가자들에게는 최적화된 화면이 실시간으로 보여져서 진행의 모든
+            순간을 편리하게 관리합니다. 
+          </p>
+        </div>
+      </div>
+      <div class="touch_and_show_group">
+        <div class="deck_div">
+          <div class="touch_and_show_item touch_on">
+            <div class="deck_div2">
+              <div class="deck_div3">
+                <div class="deck_icon">
+                  <img class="deck_vector-icon" alt="" src="/index/_3_touch_and_show/img/deck_background.svg" />
+
+                  <div class="deck_div5">1</div>
+                </div>
+                <div class="deck_div6">다정한 시작</div>
+              </div>
+            </div>
+            <div class="deck_parent">
+              <div class="deck_div7">
+                <div class="deck_div8">
+                  <div class="deck_div9">공간매핑_맑은 날</div>
+                </div>
+                <div class="deck_div8">
+                  <div class="deck_div9">진행 PPT_1</div>
+                </div>
+                <div class="deck_div8">
+                  <div class="deck_div9">배경음악</div>
+                </div>
+              </div>
+              <div class="deck_div14">
+                <div class="deck_div15">
+                  <div class="deck_div16">
+                    <img class="deck_icon" alt="" src="/index/_3_touch_and_show/img/deck1.svg" />
+
+                    <div class="deck_div17">소셜링 안내</div>
+                    <div class="deck_div18"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="touch_and_show_item">
+            <div class="deck_div2">
+              <div class="deck_div3">
+                <div class="deck_icon">
+                  <img class="deck_vector-icon" alt="" src="/index/_3_touch_and_show/img/deck_background.svg" />
+
+                  <div class="deck_div5">2</div>
+                </div>
+                <div class="deck_div6">스릴러 이벤트</div>
+              </div>
+            </div>
+            <div class="deck_parent">
+              <div class="deck_div7">
+                <div class="deck_div8">
+                  <div class="deck_div9">공간매핑_밤</div>
+                </div>
+                <div class="deck_div8">
+                  <div class="deck_div9">진행 PPT_2</div>
+                </div>
+                <div class="deck_div8">
+                  <div class="deck_div9">배경음악</div>
+                </div>
+              </div>
+              <div class="deck_div14">
+                <div class="deck_div15">
+                  <div class="deck_div16">
+                    <img class="deck_icon" alt="" src="/index/_3_touch_and_show/img/deck2.svg" />
+
+                    <div class="deck_div17">투표</div>
+                    <div class="deck_div18"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="touch_and_show_item">
+            <div class="deck_div2">
+              <div class="deck_div3">
+                <div class="deck_icon">
+                  <img class="deck_vector-icon" alt="" src="/index/_3_touch_and_show/img/deck_background.svg" />
+
+                  <div class="deck_div5">3</div>
+                </div>
+                <div class="deck_div6">잔잔한 마무리</div>
+              </div>
+            </div>
+            <div class="deck_parent">
+              <div class="deck_div7">
+                <div class="deck_div8">
+                  <div class="deck_div9">공간매핑_노을</div>
+                </div>
+                <div class="deck_div8">
+                  <div class="deck_div9">진행 PPT_3</div>
+                </div>
+                <div class="deck_div48">
+                  <div class="deck_div9">배경음악</div>
+                </div>
+              </div>
+              <div class="deck_div14">
+                <div class="deck_div15">
+                  <div class="deck_div16">
+                    <img class="deck_icon" alt="" src="/index/_3_touch_and_show/img/deck3.svg" />
+
+                    <div class="deck_div17">소울메이트</div>
+                    <div class="deck_div18"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="touch_and_show_div3">
+          <img class="show show_on" alt="" src="/index/_3_touch_and_show/img/show1.png" />
+          <img class="show" alt="" src="/index/_3_touch_and_show/img/show2.png" />
+          <img class="show" alt="" src="/index/_3_touch_and_show/img/show3.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
