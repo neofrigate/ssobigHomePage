@@ -1,0 +1,47 @@
+.footer_div {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.footer_p {
+  margin: 0;
+}
+.footer_e-mail {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.footer_e-mail-ssobigstudiogmailco-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.footer_e-mail-ssobigstudiogmailco-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer_div1 {
+  flex: 0.footer_92;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 50px 60px;
+}
+.footer_desktop {
+  width: 100%;
+  position: relative;
+  background-color: #181818;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: Pretendard;
+}
+

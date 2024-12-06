@@ -101,13 +101,6 @@ p {
   background-color: #000;
 }
 
-#footer {
-  align-self: stretch;
-  height: 40vh;
-  background-color: #000;
-  min-width: 300px;
-}
-
 .gif-container {
   position: fixed;
   top: 0;
