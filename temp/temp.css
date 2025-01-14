@@ -185,14 +185,14 @@
   gap: 8px;
   font-size: 30px;
 }
-.krw-1000cradit {
+.krw-1000credit {
   align-self: stretch;
   position: relative;
   letter-spacing: -0.4px;
   line-height: 140%;
   font-weight: 600;
 }
-.cradit-container {
+.credit-container {
   align-self: stretch;
   position: relative;
   font-size: 14px;
@@ -651,4 +651,3 @@
   color: #111;
   font-family: Pretendard;
 }
-
