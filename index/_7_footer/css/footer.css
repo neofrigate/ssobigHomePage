@@ -44,4 +44,12 @@
   color: #fff;
   font-family: Pretendard;
 }
+.footer_p a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.footer_p a:hover {
+    opacity: 0.8;
+}
 
