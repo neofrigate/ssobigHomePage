@@ -1,72 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
-    <title>About SSOBIG</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
-    <link rel="icon" href="/header/img/header_logo_icon.svg" />
-    <link rel="stylesheet" href="/index/_0_general/css/index.css" />
-    <link rel="stylesheet" href="/index/_0_general/css/index_1100.css" />
-
-    <link rel="stylesheet" href="/index/_0_general/css/index_600.css" />
-
-    <link rel="stylesheet" href="/header/css/header.css" />
-
-    <link rel="stylesheet" href="/header/css/header_1100.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap"
-    />
-
-    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <meta http-equiv="refresh" content="0; url=https://www.ssobig.com/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting...</title>
+    <script>
+      window.location.replace("https://www.ssobig.com/");
+    </script>
   </head>
-  <script>
-    $(document).ready(function () {
-      $.support.cors = true;
-      $("#header").load("/header/header.html");
-      $("#communication").load("/index/_1_communication/communication.html");
-      $("#web_access").load("/index/_2_web_access/web_access.html");
-      $("#touch_and_show").load("/index/_3_touch_and_show/touch_and_show.html");
-      $("#module_list").load("/index/_4_module_list/module_list.html");
-      $("#ssobig_join").load("/index/_5_ssobig_join/ssobig_join.html");
-      $("#video").load("/index/_6_video/video.html");
-      $("#footer").load("/index/_7_footer/footer.html");
-      
-
-      $(document).ajaxComplete(function () {
-        $("#header .tab.desktop_view").eq(0).addClass("on");
-        $(".mobile-tab").eq(0).addClass("on");
-      });
-    });
-  </script>
   <body>
-    <div id="header" class="fixed-top"></div>
-    <div class="container">
-      <div class="gif-container"></div>
-      <div class="main-content">
-        <section class="intro">
-          <div class="intro_wrap">
-            <div class="text_group">
-              <b class="headline">Design Your MEET</b>
-              <p class="description">
-                미팅의 모든 순간을 디자인하는 실시간 인터랙션 빌더
-              </p>
-            </div>
-            <a href="https://tool.ssobig.com" target="_blank" class="btn-enter"
-              >쏘빅에 입장하기</a
-            >
-          </div>
-        </section>
-        <div id="communication"></div>
-        <div id="web_access"></div>
-        <div id="touch_and_show"></div>
-        <div id="module_list"></div>
-        <div id="ssobig_join"></div>
-        <div id="video"></div>
-        <div id="footer"></div>
-      </div>
-    </div>
+    <p><a href="https://www.ssobig.com/">https://www.ssobig.com/</a></p>
   </body>
 </html>
